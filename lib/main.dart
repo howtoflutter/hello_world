@@ -1,18 +1,13 @@
 import 'package:flutter/material.dart';
-import './components/home_page.dart';
 
-void main() => runApp(MyApp());
+void main() {
+  runApp(MyApp());
+}
 
 class MyApp extends StatelessWidget {
-// This widget is the root of your application.
-  @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext ctx) {
     return MaterialApp(
-      title: 'Hello World Demo Application',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      home: MyHomePage(title: 'Life Quotes'),
+      home: Text('Hello'),
     );
   }
 }
