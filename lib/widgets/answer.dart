@@ -7,11 +7,11 @@ class Answer extends StatelessWidget {
   Answer(this.selectHandler, this.answerText);
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext ctx) {
     return Container(
       width: double.infinity,
       child: RaisedButton(
-        color: Colors.blue,
+        color: Colors.purple,
         textColor: Colors.white,
         child: Text(answerText),
         onPressed: selectHandler,
